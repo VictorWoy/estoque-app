@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Estoque App",
+    "slug": "estoque-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.seuapp.estoque"
+    },
+    "android": {
+      "package": "com.seuapp.estoque",
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "SCHEDULE_EXACT_ALARM"
+      ]
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ],
+    "scheme": "estoque-app",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
